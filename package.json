@@ -4,7 +4,8 @@
   "description": "Studies about user authentication",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/iamcalegari/auth/issues"
   },
-  "homepage": "https://github.com/iamcalegari/auth#readme"
+  "homepage": "https://github.com/iamcalegari/auth#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
